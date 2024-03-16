@@ -15,7 +15,8 @@ export async function loader() {
     {
       headers: {
         accept: "application/json",
-        Authorization: "Bearer " + process.env.TMDB_API_KEY,
+        Authorization:
+          "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJjZTFiZDE5NmQ3Y2ZmNzEwNTlhNDdkZjgyMTdlZDZhYyIsInN1YiI6IjVlYTU1ZmM3NjZmMmQyMDAxZTNmMzM5NCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.4Wb0iL7tPR0xcHJcQb_3J6ywojXT4_A4X_YfoVUA6XI",
       },
     }
   );
